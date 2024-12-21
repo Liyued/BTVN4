@@ -38,19 +38,11 @@ function App() {
         <Button text={signUp ? "Signup" : "Login"} />
         <Linebreak text="Or" />
         <LoginOptions />
-        {signUp ? (
-          <Footer
-            text="Have an account?"
-            highlight="Log In"
-            onClick={handleSignUpToggle}
-          />
-        ) : (
-          <Footer
-            text="Have an account?"
-            highlight="Sign Up"
-            onClick={handleSignUpToggle}
-          />
-        )}
+        <Footer
+          text={signUp ? "Have an account?" : "Don't have an account?"}
+          highlight={signUp ? "Login" : "Signup"}
+          onClick={handleSignUpToggle}
+        />
       </div>
     </>
   );
