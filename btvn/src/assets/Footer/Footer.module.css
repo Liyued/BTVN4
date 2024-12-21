@@ -1,0 +1,12 @@
+.highlight {
+  color: #0f3dde;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}

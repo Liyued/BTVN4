@@ -1,0 +1,21 @@
+.checkbox {
+  color: #000;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 170px;
+  height: 15px;
+  align-items: center;
+}
+
+.input {
+  width: 9px;
+  height: 9.8px;
+  flex-shrink: 0;
+}

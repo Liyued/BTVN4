@@ -1,0 +1,8 @@
+#input-container {
+  height: 638px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  margin: 200px 175px;
+}

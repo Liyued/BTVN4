@@ -1,0 +1,9 @@
+.side {
+  width: 782px;
+  height: 1042px;
+  border-radius: 45px 0px 0px 45px;
+  background-image: url(./side-img.jpg);
+  background-size: cover;
+  position: absolute;
+  left: 720px;
+}

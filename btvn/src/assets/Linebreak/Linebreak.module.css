@@ -1,0 +1,23 @@
+.linebreak {
+  width: 400px;
+  height: 2px;
+  background: #f3ebeb;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  width: 20px;
+  position: absolute;
+  top: -5px;
+  font-size: 9px;
+  background: white;
+  left: 50%;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 400px;
+  margin-top: 80px;
+}
